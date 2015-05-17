@@ -36,6 +36,21 @@ h1 {
 
 }
 
+/* Buttons
+================================= */
+.btn-default {
+	border-width: 2px;
+	border-color: inherit;
+	margin-right: 15px;
+	padding: 12px 22px;
+}
+.btn-default:hover {
+	background-color: #fff;
+	color: #957bba;
+	border-color: #fff;
+}
+
+
 /* Logos & Icons
 ================================= */
 
