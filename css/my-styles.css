@@ -164,7 +164,13 @@ strong {
 	}
 }
 
-
-
-
-
+/*===Montage===*/
+.am-wrapper{
+	float:none;
+	position:relative;
+	overflow:hidden;
+}
+.am-wrapper img{
+	position:absolute;
+	outline:none;
+}
