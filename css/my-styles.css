@@ -131,7 +131,7 @@ strong {
 /* Media Queries
 ================================= */
 
-@media (max-width: 991px) {
+@media (max-width: 100%) {
 	.jumbotron {
 		padding-top: 120px;
 		padding-bottom: 20px;
@@ -163,8 +163,14 @@ strong {
 		margin-bottom: 16px;
 	}
 }
+@media (max-width: 100%) {
+	.container {
+		display: flex;
+	}
 
-/*===Montage===*/
+
+}
+/*===Montage===
 .am-wrapper{
 	float:none;
 	position:relative;
@@ -175,7 +181,7 @@ strong {
 	outline:none;
 }
 
-/* General Demo Style */
+/* General Demo Style
 body{
 	background:#fff;
 	color:#fff;
@@ -219,7 +225,7 @@ pre{
 	padding:15px;
 	white-space:pre-wrap;
 }
-/* Header Style */
+/* Header Style
 .header{
 	height:25px;
 	line-height:24px;
