@@ -7,6 +7,8 @@
     <link href="css/my-styles.css" rel="stylesheet" media="screen">
     <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow&v1' rel='stylesheet' type='text/css' />
     <link href='http://fonts.googleapis.com/css?family=Monoton' rel='stylesheet' type='text/css' />
+    <script src="js/masonry.pkgd.min.js"></script>
+
   </head>
   <body>
 
@@ -39,14 +41,19 @@
       </div>
     </div><!-- End Jumbotron -->
     <!-- Gallery -->
-
-
-    <div class="container-fluid" id="gallery">
+    <div id="container" class="js-masonry"
+      data-masonry-options='{ "columnWidth": 200, "itemSelector": ".item" }'>
       <div class="row">
-      <div class="col-xs-4 col-sm-6 col-md-8 col-lg-12">
-      <a href="#"><img src="img/ancient-moves.png"></img></a>
-      <a href="#"><img src="img/blaze.png"></img></a>
-      <a href="#"><img src="img/figures-1019.jpg"></img></a>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="img">
+          <a href="#"><img src="img/ancient-moves.png"></img></a>
+        </div>
+        <div class="img">
+          <a href="#"><img src="img/blaze.png"></img></a>
+        </div>
+        <div class="img">
+          <a href="#"><img src="img/figures-1019.jpg"></img></a>
+        </div>
       <a href="#"><img src="img/blue-rises.png"></img></a>
       <a href="#"><img src="img/counterpoint.png"></img></a>
       <a href="#"><img src="img/intrinsic.png"></img></a>

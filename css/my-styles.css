@@ -166,10 +166,19 @@ strong {
 @media (max-width: 100%) {
 	.container {
 		display: flex;
+		margin: 10px auto;
 	}
 
-
 }
+/*gallery*/
+#gallery {
+	width: 100%;
+}
+
+
+
+
+
 /*===Montage===
 .am-wrapper{
 	float:none;
