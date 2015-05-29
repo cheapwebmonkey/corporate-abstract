@@ -87,7 +87,7 @@ display: none;
 	height: 589px;
 	background: url('../img/hero.png') no-repeat;
 	border-radius: 10px;
-}
+	}
 
 
 /* Logos & Icons
@@ -107,14 +107,14 @@ display: none;
 	width: 94%;
 	height: 196px;
 	position: relative;
-	background: #af7ac4 url('../img/main-bg.png') no-repeat 270px -180px;
+	background: #3B313F url('../img/main-bg.png') no-repeat 270px -180px;
 	background-size: 140%;
 }
 .ft-icon::before {
 	content: "";
 	display: block;
 	position: absolute;
-	background: #af7ac4
+	background: #3B313F;
 	width: 164px;
 	height: 112px;
 	top: 0;
@@ -146,14 +146,15 @@ display: none;
 		padding-top: 120px;
 		padding-bottom: 20px;
 		background-position: 10% 10%;
-	}
+		}
+
 	.ft-copy {
 		padding-top: 12px;
 	}
 	.ft-copy {
 		width: auto;
 	}
-}
+
 @media (max-width: 767px) {
 	.navbar {
 		min-height: 60px;
@@ -172,7 +173,7 @@ display: none;
 	.ft {
 		margin-bottom: 16px;
 	}
-}
+
 @media (max-width: 100%) {
 	.container {
 		display: flex;
