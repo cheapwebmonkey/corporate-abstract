@@ -34,6 +34,13 @@ strong {
 	margin-bottom: 20px;
 }
 
+/*.nav-collapse .dropdown-menu {
+position: static;
+top: auto;
+left: auto;
+float: none;
+display: none;
+}*/
 
 /* Layout
 ================================= */
@@ -100,13 +107,14 @@ strong {
 	width: 94%;
 	height: 196px;
 	position: relative;
-	background: #8c73b0 url('../img/main-bg.png') no-repeat 270px -180px;
+	background: #af7ac4 url('../img/main-bg.png') no-repeat 270px -180px;
 	background-size: 140%;
 }
 .ft-icon::before {
 	content: "";
 	display: block;
 	position: absolute;
+	background: #af7ac4
 	width: 164px;
 	height: 112px;
 	top: 0;
