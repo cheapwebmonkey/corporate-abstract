@@ -34,6 +34,39 @@ strong {
 	margin-bottom: 20px;
 }
 
+.ft-copy p,
+.copy-offset {
+	width: 88%;
+}
+.panel {
+	background-image: url('../img/form-panel-bg.png');
+	background-repeat: repeat-x;
+	border-bottom: solid 1px #eee;
+	padding: 42px 0;
+	margin: 80px 0 132px 0;
+}
+.callout {
+	padding: 35px 0;
+	margin-top: 64px;
+	text-align: center;
+	border: 1px solid #e3e3e3;
+	border-right: none;
+	border-left: none;
+}
+.callout .glyphicon {
+	margin-left: 10px;
+}
+.teacher-desc strong {
+	display: block;
+}
+.th-copy {
+	padding-top: 30px;
+}
+.main-footer {
+	margin: 100px 0 80px 0;
+}
+
+
 /*.nav-collapse .dropdown-menu {
 position: static;
 top: auto;
@@ -136,6 +169,15 @@ display: none;
 }
 .ft-icon.people {
 	background-position: 290px 0;
+}
+
+.ft-twitter {
+	width: 94%;
+	height: 100px;
+	position: relative;
+	background: url('../img/social-32-twitter.png') no-repeat;
+	background-size: 10%;
+
 }
 
 /* Media Queries
