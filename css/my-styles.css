@@ -67,14 +67,6 @@ strong {
 }
 
 
-/*.nav-collapse .dropdown-menu {
-position: static;
-top: auto;
-left: auto;
-float: none;
-display: none;
-}*/
-
 /* Layout
 ================================= */
 
@@ -230,25 +222,8 @@ display: none;
 
 
 /*Masonry CSS only*/
-.masonry { /* Masonry container */
-    column-count: 4;
-    column-gap: 1em;
-}
-
-.item { /* Masonry bricks */
-    background-color: #eee;
-    display: inline-block;
-    margin: 1em, 1em, 1em, 1em;
-    width: 95%;
-}
-
-/* body {
-    font: 1em/1.67 'Open Sans', Arial, Sans-serif;
-    margin: 0;
-    background: #e9e9e9;
-} */
 .wrapper {
-    width: 100%;
+    width: 90%;
     margin: 3em auto;
 }
 
@@ -266,19 +241,24 @@ display: none;
     background: #fff;
     padding: 1em;
     margin: 0 0 1.5em;
-    width: 80%;
+    width: 100%;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-shadow: 2px 2px 4px 0 #ccc;
 }
 
+img, iframe {
+max-width: 100%;
+height: auto;
+display: block;
+}
 
 @media only screen and (min-width: 400px) {
     .masonry {
-        -moz-column-count: 1;
-        -webkit-column-count: 1;
-        column-count: 1;
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
     }
 }
 
