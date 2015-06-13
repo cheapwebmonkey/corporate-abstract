@@ -45,10 +45,12 @@
             <h1>Jean Salmon</h1>
               <p class="strong">Current Gallery | Gallery 23, Jean Salmon, Artist</p>
               <p><q>I work in the abstract because of the sense of mystery. I never know where a painting will take me, I simply immerse myself in a primal flurry of light, movement and form. It is over when a certain balance has been reached, and the end result feels visually complete to me.</q></p>
+              <div>
               <p class="lead">
                 <a class="btn btn-warning btn-lg" href="mailto:info@corporateabstract.com">Contact the gallery</a>
-                <a class="btn btn-warning btn-lg" href="mailto:contact@salmon23.com">Contact the artist</a>
+                <a class="btn btn-warning btn-lg float-left" href="mailto:contact@salmon23.com">Contact the artist</a>
             </p>
+           </div> 
           </div>
           <div class="col-sm-6 hidden-xs">
             <div class="deviceJean pull-right">
@@ -63,7 +65,7 @@
       <p>Jean Salmon- Artist</p>
         <div class="grid">
           <div class="grid-sizer"></div>
-          <div class="grid-item"><a href="#"><img src="img/sentry.png" style='width:100%'></a></div>
+          <div class="grid-item" ><a href="#" data-toggle="modal" data-target="#lightbox"><img src="img/sentry.png" style='width:100%'></a></div>
           <div class="grid-item grid-item--height2"><a href="#"><img alt="Blaze abstract painting" src="img/blaze.png" style='width:100%'></a></div>
           <div class="grid-item grid-item--height3"><a href="#"><img alt="Blaze abstract painting" src="img/figures-1019.jpg" style='width:100%'></a></div>
           <div class="grid-item grid-item--height2"><a href="#"><img alt="Blaze abstract painting" src="img/blue-rises.png" style='width:100%'></a></div>
@@ -86,8 +88,18 @@
           <div class="grid-item grid-item--height4"><a href="#"><img src="img/figures-3022.jpg" style='width:100%'></a></div>
           <div class="grid-item"><a href="#"><img alt="Blaze abstract painting" src="img/blaze.png" style='width:100%'></a></div>
           <div class="grid-item grid-item--height3"><a href="#"><img src="img/figures-6026.jpg" style='width: 100%'></a></div>
+          <div id="lightbox" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+           <div class="modal-dialog">
+             <button type="button" class="close hidden" data-dismiss="modal" aria-hidden="true">×</button>
+              <div class="modal-content">
+              <div class="modal-body">
+                <img src=" alt=" />
+            </div>
         </div>
+    </div>
+</div>
       </div>
+     </div>
 
 <!-- End Gallery -->   
     <!-- Panel -->
@@ -131,6 +143,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/modal.js"></script>
 
 
   </body>
