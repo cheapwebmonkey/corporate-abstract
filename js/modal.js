@@ -1,4 +1,3 @@
-
 $(document).ready(function() {
     var $lightbox = $('#lightbox');
     
@@ -8,8 +7,7 @@ $(document).ready(function() {
             alt = $img.attr('alt'),
             css = {
                 'maxWidth': $(window).width() - 100,
-                'maxHeight': $(window).height() - 100,
-
+                'maxHeight': $(window).height() - 100
             };
     
         $lightbox.find('.close').addClass('hidden');
@@ -20,7 +18,6 @@ $(document).ready(function() {
     
     $lightbox.on('shown.bs.modal', function (e) {
         var $img = $lightbox.find('img');
-
             
         $lightbox.find('.modal-dialog').css({'width': $img.width()});
         $lightbox.find('.close').removeClass('hidden');

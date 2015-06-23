@@ -195,7 +195,10 @@ strong {
 
 }
 
-body {
+.modal-dialog {width:50%;}
+.thumbnail {margin-bottom:none;}
+
+/*body {
     padding: 30px 0px;
 }
 
@@ -216,7 +219,7 @@ body {
     right: -55px;
     
     z-index:1032;
-}
+}*/
 
 /* Media Queries
 ================================= */
@@ -258,6 +261,7 @@ body {
 	.container {
 		display: flex;
 		margin: 0 auto;
+
 	}
 
 }
