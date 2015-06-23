@@ -195,8 +195,14 @@ strong {
 
 }
 
-.modal-dialog {width:95%;}
-.thumbnail {margin-bottom:none;}
+.modal-dialog {
+	/*width:70%;*/
+	max-height: 700px;
+	overflow: auto;
+}
+.thumbnail {
+	margin-bottom:none;
+}
 
 /*body {
     padding: 30px 0px;
