@@ -1,0 +1,27 @@
+.btn-default {
+	border-width: 2px;
+	border-color: inherit;
+	margin-right: 10px;
+	padding: 12px 22px;
+}
+.btn-default:hover {
+	background-color: #fff;
+	color: #957bba;
+	border-color: #fff;
+}
+
+.btn-warning {
+	border-width: 2px;
+	border-color: inherit;
+	margin-right: 10px;
+    margin-bottom: 10px;
+	padding: 12px 22px;
+	background-color: #957bba;
+	color: #fff;
+	border-color: #957bba;
+}
+.btn-warning:hover {
+	background-color: #AEA8D3;
+	color: #fff;
+	border-color: #AEA8D3;
+}

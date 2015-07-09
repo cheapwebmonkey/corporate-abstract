@@ -1,0 +1,47 @@
+.main-logo {
+	width: 124px;
+	height: 34px;
+	margin-top: 22px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	background: url('../img/main-logo.png') no-repeat;
+	background-size: 100%;
+  
+}
+
+.ft-icon {
+	width: 94%;
+	height: 196px;
+	position: relative;
+	background: #3B313F url('../img/main-bg.png') no-repeat 270px -180px;
+	background-size: 140%;
+}
+
+.ft-icon::before {
+	content: "";
+	display: block;
+	position: absolute;
+	background: #3B313F;
+	width: 164px;
+	height: 112px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	background: url('../img/feature-icons.png') no-repeat;
+	background-size: 100%;
+}
+.statue::before {
+	background-position: 0 -110px;
+}
+.people::before {
+	background-position: 0 -217px;
+}
+.ft-icon.statue {
+	background-position: -500px 0;
+}
+.ft-icon.people {
+	background-position: 290px 0;
+}
