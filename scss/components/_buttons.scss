@@ -5,9 +5,9 @@
 	padding: 12px 22px;
 }
 .btn-default:hover {
-	background-color: #fff;
-	color: #957bba;
-	border-color: #fff;
+	background-color: $color-text-light;
+	color: $color-prim;
+	border-color: $color-text-light;
 }
 
 .btn-warning {
@@ -16,12 +16,12 @@
 	margin-right: 10px;
     margin-bottom: 10px;
 	padding: 12px 22px;
-	background-color: #957bba;
-	color: #fff;
-	border-color: #957bba;
+	background-color: $color-prim;
+	color: $color-text-light;
+	border-color: $color-prim;
 }
 .btn-warning:hover {
-	background-color: #AEA8D3;
-	color: #fff;
-	border-color: #AEA8D3;
+	background-color: $color-ter;
+	color: $color-text-light;
+	border-color: $color-ter;
 }

@@ -1,5 +1,5 @@
 .jumbotron {
-	background-image: url('../img/main-bg.png');
+    background-image: url('#{$path-img}main-bg.png');
 	background-repeat: no-repeat;
 	background-position:  200% 100%;
 	padding: 100px 0 40px 0;
@@ -8,29 +8,30 @@
 .device {
 	width: 345px;
 	height: 589px;
-	background: url('../img/hero.png') no-repeat;
-	border-radius: 10px;
+	background: url('#{$path-img}hero.png') no-repeat;
+	border-radius: $br;
 	}
 
 .deviceJean {
 	width: 400px;
 	height: 328px;
-	background: url('../img/jean-salmon.png') no-repeat;
-	border-radius: 10px;
+	background: url('#{$path-img}jean-salmon.png') no-repeat;
+	border-radius: $br;
+    margin-top: 30px;
 	}
 
 .panel {
-	background-image: url('../img/form-panel-bg.png');
+	background-image: url('#{$path-img}form-panel-bg.png');
 	background-repeat: repeat-x;
-	border-bottom: solid 1px #eee;
+	border-bottom: solid 1px $color-border;
 	padding: 42px 22px;
 	margin: 80px 0 132px 0;
 }
 .callout {
+    @extend %centered;
 	padding: 35px 0;
 	margin-top: 64px;
-	text-align: center;
-	border: 1px solid #e3e3e3;
+	border: 1px solid $color-border;
 	border-right: none;
 	border-left: none;
 }
@@ -84,6 +85,7 @@
 	}
 	.lead {
 		margin-bottom: 40px;
+        
 	}
 	.ft {
 		margin-bottom: 16px;

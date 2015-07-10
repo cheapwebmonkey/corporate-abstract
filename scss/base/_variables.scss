@@ -1,0 +1,45 @@
+// Descriptive color variables
+
+$white                    : #fff;
+$black                    : #000;
+$grey                     : #878787;
+$salt-box                 : #5f5d60;
+$chatelle                 : #b3aeb5;
+$purple-mountains-majesty : #957bba;
+$wistful                  : #AEA8D3;
+$blackcurrant             : #3B313F;
+$moonraker                : #d5c1f2;
+$mercury                  : #e3e3e3;
+
+
+// functional color variables
+
+$color-prim         : $purple-mountains-majesty;
+$color-sec          : $mercury;
+$color-ter          : $wistful;
+$color-quad         : $chatelle;
+
+$color-text-light   : $white;
+$color-text-base    : $salt-box;
+$color-text-dark    : $moonraker;
+
+$color-border       : $mercury;
+$color-box          : $blackcurrant;
+
+// Border radius
+
+$br       : 10px;
+
+// Img path
+
+$path-img  : '../img/';
+
+// Media query breakpoints
+
+$brk-narrow   : '(max-width: 767px)' ;
+$brk-wide     : '(max-width: 100%)' ;
+
+
+// @extend placehoders first
+// @include mixins
+// add remaining declarations
