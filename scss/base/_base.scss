@@ -27,3 +27,46 @@ a {
 .teacher-desc strong {
 	display: block;
 }
+
+svg {
+	margin: auto;
+    display:flex;
+    width: 65%;
+     
+}
+
+.building * {
+//  -webkit-animation: pulse 5s 3s ease alternate infinite;
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  -webkit-animation: grow 3s ease alternate infinite;
+  animation: grow 3s ease alternate infinite;
+  
+}
+
+/* --------------------------
+  Keyframes
+--------------------------- */
+
+@-webkit-keyframes grow {
+  0%{
+    -webkit-transform: scale(0);
+    transform: scale(0);
+
+  }
+  30%{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  60%{
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    
+  }
+}
+
+@-webkit-keyframes pulse {
+  50% {
+    -webkit-transform: scale(1.4);
+  }
+}
