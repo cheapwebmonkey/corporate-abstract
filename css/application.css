@@ -30,31 +30,35 @@ a {
 
 svg {
   margin: auto;
-  display: flex;
-  width: 65%; }
+  display: inline-flex;
+  width: 65%;
+  font-family: 'Adelle Sans'; }
 
 .building * {
-  -webkit-transform-origin: 50% 50%;
-  transform-origin: 50% 50%;
-  -webkit-animation: grow 3s ease alternate infinite;
-  animation: grow 3s ease alternate infinite; }
+  animation-name: tossing;
+  -webkit-animation-name: tossing;
+  animation-duration: 2.5s;
+  -webkit-animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite; }
 
 /* --------------------------
   Keyframes
 --------------------------- */
-@-webkit-keyframes grow {
+@keyframes tossing {
   0% {
-    -webkit-transform: scale(0);
-    transform: scale(0); }
-  30% {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1); }
-  60% {
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9); } }
-@-webkit-keyframes pulse {
+    transform: rotate(-4deg); }
   50% {
-    -webkit-transform: scale(1.4); } }
+    transform: rotate(4deg); }
+  100% {
+    transform: rotate(-4deg); } }
+@-webkit-keyframes tossing {
+  0% {
+    -webkit-transform: rotate(-4deg); }
+  50% {
+    -webkit-transform: rotate(4deg); }
+  100% {
+    -webkit-transform: rotate(-4deg); } }
 .jumbotron {
   background-image: url("../img/main-bg.png");
   background-repeat: no-repeat;
