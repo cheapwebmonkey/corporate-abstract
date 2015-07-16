@@ -46,13 +46,16 @@ svg {
 // -webkit-transform: translateY(850px);
 //  -webkit-animation: popup 8s 8.5s ease infinite;
   animation-name: tossing;
-	-webkit-animation-name: tossing;	
+	-webkit-animation-name: tossing;
+            animation-name: tossing;
 
 	animation-duration: 2.5s;	
 	-webkit-animation-duration: 2.5s;
+            animation-duration: 2.5s;
 
 	animation-iteration-count: infinite;
 	-webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
 }
 /* --------------------------
   Keyframes

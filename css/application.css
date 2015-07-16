@@ -37,10 +37,13 @@ svg {
 .building * {
   animation-name: tossing;
   -webkit-animation-name: tossing;
+  animation-name: tossing;
   animation-duration: 2.5s;
   -webkit-animation-duration: 2.5s;
+  animation-duration: 2.5s;
   animation-iteration-count: infinite;
-  -webkit-animation-iteration-count: infinite; }
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite; }
 
 /* --------------------------
   Keyframes
