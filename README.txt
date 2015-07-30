@@ -1,1 +1,1 @@
-This is the README file for Corporate Abstract's website project. Thank you, please drive thru.
+This is the README file for Corporate Abstract's website project. More artists will be added to this project in the future. All images are property of the artist and may not be used or reproduced in any manner without the artists written consent. Thank you, please drive thru.
